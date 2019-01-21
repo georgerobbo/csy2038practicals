@@ -83,7 +83,7 @@ vc_surname VARCHAR2(30) := 'Robertson';
 BEGIN
 vn_length := LENGTH(vc_firstname);
 
-WHILE vn_counter > vn_length LOOP
+WHILE vn_counter <= vn_length LOOP
 
 DBMS_OUTPUT.PUT_LINE(SUBSTR(vc_firstname, vn_counter, 1));
 vn_counter := vn_counter +1;
