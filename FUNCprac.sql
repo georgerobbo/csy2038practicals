@@ -79,3 +79,8 @@ SHOW ERRORS;
 
 
 -- exec proc_param_using_func;
+
+DROP PROCEDURE proc_using_func;
+DROP PROCEDURE proc_param_using_func;
+DROP FUNCTION func_instructor_ct;
+DROP FUNCTION func_param_ct;
