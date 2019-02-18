@@ -50,7 +50,7 @@ BEGIN
 	SELECT COUNT(*)
 	INTO vn_instructor_ct
 	FROM instructors
-	WHERE salary  > '5000';
+	WHERE salary  > '4000';
 	
 	RETURN vn_instructor_ct;
 	
